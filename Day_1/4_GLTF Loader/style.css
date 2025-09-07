@@ -1,0 +1,22 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: 'Inter', sans-serif; 
+    background-color: #f0f0f0; 
+}
+canvas { 
+    display: block; 
+}
+.info-box {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 14px;
+    max-width: 90%;
+}
